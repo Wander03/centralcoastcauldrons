@@ -20,8 +20,9 @@ def reset():
 @router.get("/shop_info/")
 def get_shop_info():
     """ """
-    return {
-        "shop_name": "Panic Potinos",
-        "shop_owner": "Andrew Kerr",
-    }
 
+    # TODO: Change me!
+    return {
+        "shop_name": "Potion Shop",
+        "shop_owner": "Potion Seller",
+    }
