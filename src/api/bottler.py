@@ -3,7 +3,7 @@ from enum import Enum
 from pydantic import BaseModel
 from src.api import auth
 import sqlalchemy as sa
-from src.api import database as db
+from src import database as db
 
 
 router = APIRouter(
